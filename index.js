@@ -121,37 +121,37 @@
 // }
 
 // }
-// function Good(){
-//   console.log('and me')
+function Good(){
+  console.log('and me')
 
-// }
-// Bye(Good)
+}
+Bye(Good)
 
-// const namesis= ['You','Me','Us'];
-// namesis.map(capitalize);
-// console.log(namesis)
+const namesis= ['You','Me','Us'];
+namesis.map(capitalize);
+console.log(namesis)
 
-// function capitalize(element,index,array){
+function capitalize(element,index,array){
 
-//   array[index]= element.charAt(0).toLowerCase()  + element.slice(1);
-// }
-//   let numbers=[1,2,3,4,50];
-//   numbers.forEach(display);
+  array[index]= element.charAt(0).toLowerCase()  + element.slice(1);
+}
+  let numbers=[1,2,3,4,50];
+  numbers.forEach(display);
 
-//  function display(element,index,array){
-//   console.log(array);
-//   console.log(index);
-//   console.log(element);
-//  }
-//  function double(element,index,array){
-//   array[index]= element*2;
-//   let result=array[index];
-//   console.log(result)
-//  }
-//  numbers.forEach(double);
-// let fruits=['apple','banana','cashew','orange']
-// // fruits.forEach(Capitalize);
-// fruits.forEach(Uppercase);
+ function display(element,index,array){
+  console.log(array);
+  console.log(index);
+  console.log(element);
+ }
+ function double(element,index,array){
+  array[index]= element*2;
+  let result=array[index];
+  console.log(result)
+ }
+ numbers.forEach(double);
+let fruits=['apple','banana','cashew','orange']
+// fruits.forEach(Capitalize);
+fruits.forEach(Uppercase);
 
 function Capitalize(element,index,array){
   array[index]= element.charAt(0).toUpperCase() + element.slice(1);
