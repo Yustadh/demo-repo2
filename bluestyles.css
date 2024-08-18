@@ -1,8 +1,26 @@
-body {
-    background-color: lightblue;
-}
+#stylings{
+   text-align: center;
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+}
+#Changeme{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.moveme{
+    text-align: center;
+}
+#rytHere, #rytThere, #rytNow{
+    color:white
+}
+#Status{
+    color:white;
+}
+#Go{
+    color:white;
+}
+p{
+    color:white;
 }
